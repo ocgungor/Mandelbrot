@@ -30,6 +30,7 @@
 		56852F9E171CBDF600407225 /* libX11.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libX11.6.dylib; sourceTree = "<group>"; };
 		56852FA3171CC35D00407225 /* mandelbrot.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mandelbrot.c; path = ../../mandelbrot.c; sourceTree = "<group>"; };
 		56852FA4171CC35D00407225 /* mandelbrot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mandelbrot.h; path = ../../mandelbrot.h; sourceTree = "<group>"; };
+		56921E2B171F5FCA00D8F347 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		56BAA6C0171A76D000694F1D /* Mandelbrot */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Mandelbrot; sourceTree = BUILT_PRODUCTS_DIR; };
 		56BAA6C3171A76D000694F1D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		56BAA6C5171A76D000694F1D /* Mandelbrot.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Mandelbrot.1; sourceTree = "<group>"; };
@@ -51,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				56852F9E171CBDF600407225 /* libX11.6.dylib */,
+				56921E2B171F5FCA00D8F347 /* README.md */,
 				56BAA6C2171A76D000694F1D /* Mandelbrot */,
 				56BAA6C1171A76D000694F1D /* Products */,
 			);
