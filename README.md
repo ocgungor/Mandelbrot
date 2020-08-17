@@ -3,6 +3,22 @@ Mandelbrot
 
 A simple Mandelbrot implementation written in C using X11
 
+I have received a few complaints about X11 not being found in MacOS 10.14 and above.. I have updated the code by following the instructions on https://github.com/alexcu/swift-x11-example-xcode/blob/master/README.md. However, there is no need for a modulemap since this is written in C.
+
+## Prerequisites
+Install Quartz using [Homebrew Cask](https://github.com/caskroom/homebrew-cask) or directly from [Sourceforge](http://www.xquartz.org)
+
+```
+$ brew cask install xquartz
+```
+## Getting Started
+
+Link the header files into `/usr/local/include/X11` and libraries into `/usr/local/lib/X11`:
+
+```
+$ ln -s /usr/X11/include/X11 /usr/local/include
+$ ln -s /usr/X11/lib /usr/local/lib/X11
+```
 
 Screenshot
 ==========
